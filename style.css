@@ -1,14 +1,44 @@
-body { 
-    background-image: linear-gradient(0deg, rgb(255, 137, 69), rgb(255, 231, 96));
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.section1 { 
-    border-style: dotted; 
-    border-color: white; 
-}
-.title { 
-    padding-top: 100px;
-    text-align: center; 
-    font-family: 'Playball', cursive;
-}
+html {
+    height: 100%;
+    width: 100%;
+  }
+  nav{ 
+    background-color: #FF9345; 
+  }
+  .nav-link{ 
+    color: black; 
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+  }
+  .nav-link:hover{ 
+    color: white; 
+  }
+  .explore-content {
+    background-color: #ffe793; 
+    margin: auto; 
+    padding: 20px; 
+    margin-bottom: 60px;  
+    border: solid black 2px; 
+    border-radius: 8px; 
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 24px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  img { 
+    border: solid white 3px; 
+  }
+  p { 
+    float: right; 
+  }
+  .title { 
+    padding-top: 100px; 
+    padding-bottom: 50px; 
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+  }
+  .text-center { 
+    margin-bottom: 30px; 
+    font-family: 'Jua', sans-serif;
+  }
+  .card { 
+    float: bottom; 
+  }
