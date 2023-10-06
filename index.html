@@ -8,6 +8,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,12 +21,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 
   <h1 class="title"> Summer Recap </h1>
+
   <!-- navbar -->
 
   <nav class="navbar navbar-expand-sm fixed-top">
@@ -43,13 +52,25 @@
 
   <div class="container" id="content">
     <div class="row explore-content">
+      <!-- summary -->
+      <h2 class="text-center"> summary </h2>
+      <div id="summary" class="col-md-6">
+      </div>
+      <div class="col-md-6">
+        <p class="summary"> (info here) </p>
+      <!-- cards here -->
+      
+      </div>
+    </div>
+
+    <div class="row explore-content">
       <!-- pier village -->
       <h2 class="text-center"> Pier Village </h2>
       <div id="section1" class="col-md-6">
         <img src="images/pier-village_standard.jpg" class="img-fluid">
       </div>
       <div class="col-md-6 d-flex justify-content-start">
-        <p class=""> (info here) </p>
+        <p> Pier Village, located along the Jersey Shore, offers upscale shopping, dining, entertainment, and residential options. It features a beautiful boardwalk with Atlantic Ocean views and a mix of boutique shops, restaurants, cafes, and cultural events. </p>
       <!-- cards here -->
       
       </div>
@@ -62,7 +83,7 @@
         <img src="images/the feast.jpeg" class="img-fluid">
       </div>
       <div class="col-md-6 d-flex justify-content-start">
-        <p class=""> (info here) </p>
+        <p class=""> The annual Festa di Santa Rosalia, also known as the 18th Avenue Feast, is a cultural and religious celebration in Bensonhurst, Brooklyn, honoring the patron saint of Palermo, Sicily, with a lively procession, religious ceremonies, and traditional Italian food. </p>
       </div>
     </div>
 
@@ -73,21 +94,58 @@
         <img src="images/tobyhanna state park.jpg" class="img-fluid">
       </div>
       <div class="col-md-6 d-flex justify-content-start">
-        <p class=""> (info here) </p>
+        <p class=""> Tobyhanna State Park in Pennsylvania offers a serene camping experience surrounded by greenery and 170-acre Tobyhanna Lake. With tent and RV sites, amenities, and recreational activities like hiking, fishing, boating, and swimming, visitors can fully immerse themselves in nature. </p>
       </div>
     </div>
 
-
-
-
-
-
-
-
   </div>
-
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Pier Village</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a href="#" class="btn btn-primary">Card link</a>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> The Feast </h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Card link</a>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Tobyhanna State Park </h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <a href="#" class="btn btn-primary">Card link</a>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   </container>
+  <footer>
+    <p class="foot"> Elizabeth Reznik </p>
+    <p class="foot"><a href="mailto:525ereznik@frhsd.com"> 525ereznik@frhsd.com </a></p>
+  </footer>
 </body>
 
 </html>

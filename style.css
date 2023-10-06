@@ -26,8 +26,11 @@ html {
   img { 
     border: solid white 3px; 
   }
-  p { 
-    float: right; 
+  p {  
+    font-family: 'Zen Loop', cursive;
+    font-weight: bolder;
+    font-size: 23px;
+
   }
   .title { 
     padding-top: 100px; 
@@ -41,4 +44,11 @@ html {
   }
   .card { 
     float: bottom; 
+  }
+  .summary{ 
+    text-align: center; 
+  }
+  .foot{ 
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
   }
