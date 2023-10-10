@@ -2,13 +2,16 @@ html {
     height: 100%;
     width: 100%;
   }
-  nav{ 
+  nav { 
     background-color: #FF9345; 
+    text-align: center; 
   }
   .nav-link{ 
     color: black; 
     font-family: 'Jua', sans-serif;
     font-size: 20px;
+    display: inline-block; 
+    margin: 0 10px; 
   }
   .nav-link:hover{ 
     color: white; 
@@ -42,13 +45,11 @@ html {
     margin-bottom: 30px; 
     font-family: 'Jua', sans-serif;
   }
-  .card { 
-    float: bottom; 
-  }
-  .summary{ 
-    text-align: center; 
-  }
+  
   .foot{ 
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
   }
+.card { 
+  margin: 20px; 
+}
